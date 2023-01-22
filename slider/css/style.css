@@ -1,0 +1,26 @@
+.itkamasutra-slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.itkamasutra-slider .slide-img{
+    width: 400px;
+    height: 300px;
+}
+.show-prev-btn{
+    background-color: white;
+    border: none;
+    font-size: 100px;
+    background-color: transparent;
+}
+.show-next-btn{
+    background-color: white;
+    border: none;
+    font-size: 100px;
+    background-color: transparent;
+}
+.sliders-btn:disabled{
+    color: red;
+    background-color: transparent;
+}

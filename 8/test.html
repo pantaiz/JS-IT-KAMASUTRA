@@ -1,0 +1,44 @@
+ <input value="Ivan" class="first-name" id="first-name">
+<input value="sv" class="last-name" id="last-name">
+<input value="brest" class="adress" id="adress">
+<select id="selec">
+
+    <option value="Moscow">Moscow</option>
+    <option value="Kiev">Kiev</option>
+    <option selected="selected" value="Minsk">Minsk</option>
+
+</select>
+<textarea id="hobby">
+    Gitar 
+    Pc play
+    Music
+    Reading
+</textarea>
+<div id="divSoul">
+    <img id="randomI" alt="randomIMG" src="https://www.gravatar.com/avatar/62db2bb4185f08d887b347de4e58aaa6?s=64&d=identicon&r=PG">
+</div>
+<script>
+ //1-4
+ /* window.alert(document.getElementById('first-name').className);
+window.alert(document.getElementById('last-name').value);
+window.alert(document.getElementById('adress').value);  */   
+
+//5-8
+/* var selectedOption=document.getElementById('selec');
+var valueSelectedOption=selectedOption.value;
+var textSelectedOption=selectedOption.options[selectedOption.selectedIndex].text;
+window.alert(textSelectedOption); 
+window.alert(valueSelectedOption); 
+ */
+//9-11
+/* window.alert(document.getElementById('hobby').value); */
+//12-14
+//window.alert(document.getElementById('divSoul'));
+//Не понял 15 пункт домашки, какое свойство, если у нас id???
+//15
+
+//16
+//window.alert(document.getElementById('hobby').innerHTML);//Получаем .innerHTML=.value у textarea
+//17
+window.alert(document.getElementById("randomI").getAttribute("alt"));
+</script>
